@@ -20,7 +20,6 @@
     return [[UIBarButtonItem alloc] initWithCustomView:btn];
     
 }
-
 + (instancetype)barButtonItemWithImage:(UIImage *)image selImage:(UIImage *)selImage targer:(id)target action:(SEL)action
 {
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -32,4 +31,22 @@
     
     return [[UIBarButtonItem alloc] initWithCustomView:btn];
 }
++ (instancetype)backBarButtonItemWithImage:(UIImage *)image heighImage:(UIImage *)heighImage targer:(id)target action:(SEL)action title:(NSString *)title
+{
+    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [backButton setTitle:title forState:UIControlStateNormal];
+    [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [backButton setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
+    [backButton setImage:image forState:UIControlStateNormal];
+    [backButton setImage:heighImage forState:UIControlStateHighlighted];
+    
+    [backButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    [backButton sizeToFit];
+    backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);
+    
+    
+    return [[UIBarButtonItem alloc] initWithCustomView:backButton];
+}
+
+
 @end

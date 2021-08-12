@@ -22,12 +22,9 @@ static NSString *settingCellreuseIdentifier = @"settingCellreuseIdentifier";
 }
 - (void)setupNavBar{
     self.title = @"设置";
-    UIButton *backButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    [backButton setTitle:@"返回" forState:UIControlStateNormal];
-    [backButton setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:(UIControlStateNormal)];
-    [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [backButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:backButton];
+    
+
+
 }
 - (void)back{
     

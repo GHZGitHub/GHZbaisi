@@ -7,7 +7,7 @@
 
 #import "GHZBaseNavigationVController.h"
 
-@interface GHZBaseNavigationVController ()
+@interface GHZBaseNavigationVController ()<UIGestureRecognizerDelegate>
 
 @end
 
@@ -34,5 +34,19 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.interactivePopGestureRecognizer.delegate = self;
+}
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    if (self.childViewControllers.count > 0) {
+        viewController.navigationItem.leftBarButtonItem  = [UIBarButtonItem backBarButtonItemWithImage:[UIImage imageNamed:@"navigationButtonReturn"] heighImage:[UIImage imageNamed:@"navigationButtonReturnClick"] targer:self action:@selector(back) title:@"返回"];
+    }
+
+    [super pushViewController:viewController animated:animated];
+}
+- (void)back{
+    [self popViewControllerAnimated:NO];
+}
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch{
+    return  self.childViewControllers.count > 1;
 }
 @end

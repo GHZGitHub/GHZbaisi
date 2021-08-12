@@ -22,6 +22,8 @@
 		DB4965CB26C3A44C00A89EE9 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965C726C3A44C00A89EE9 /* UIImage+Image.m */; };
 		DB4965CF26C3BA6500A89EE9 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965CE26C3BA6500A89EE9 /* UIBarButtonItem+item.m */; };
 		DB4965D626C506F200A89EE9 /* GHZSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965D526C506F200A89EE9 /* GHZSettingViewController.m */; };
+		DB4965D926C51E7A00A89EE9 /* GHZADController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965D826C51E7A00A89EE9 /* GHZADController.m */; };
+		DB4965DC26C51E9900A89EE9 /* ad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4965DB26C51E9900A89EE9 /* ad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,9 @@
 		DB4965CE26C3BA6500A89EE9 /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
 		DB4965D426C506F200A89EE9 /* GHZSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHZSettingViewController.h; sourceTree = "<group>"; };
 		DB4965D526C506F200A89EE9 /* GHZSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHZSettingViewController.m; sourceTree = "<group>"; };
+		DB4965D726C51E7A00A89EE9 /* GHZADController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHZADController.h; sourceTree = "<group>"; };
+		DB4965D826C51E7A00A89EE9 /* GHZADController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHZADController.m; sourceTree = "<group>"; };
+		DB4965DB26C51E9900A89EE9 /* ad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +113,7 @@
 				DB4965A426C2E19100A89EE9 /* FriendTrend(关注) */,
 				DB4965AF26C2E19100A89EE9 /* Me(我) */,
 				DB4965B526C2E19100A89EE9 /* Publish(发布) */,
+				DB4965DA26C51E8000A89EE9 /* Ad(广告页面) */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -339,6 +345,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DB4965DA26C51E8000A89EE9 /* Ad(广告页面) */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965D726C51E7A00A89EE9 /* GHZADController.h */,
+				DB4965D826C51E7A00A89EE9 /* GHZADController.m */,
+				DB4965DB26C51E9900A89EE9 /* ad.xib */,
+			);
+			path = "Ad(广告页面)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -396,6 +412,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4965DC26C51E9900A89EE9 /* ad.xib in Resources */,
 				DB49658B26C2E11D00A89EE9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +438,7 @@
 				DB4965CB26C3A44C00A89EE9 /* UIImage+Image.m in Sources */,
 				DB4965C426C39AB600A89EE9 /* GHZTabBar.m in Sources */,
 				DB4965CA26C3A44C00A89EE9 /* UIView+Frame.m in Sources */,
+				DB4965D926C51E7A00A89EE9 /* GHZADController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)barButtonItemWithImage:(UIImage *)image highImage:(UIImage *)highImage targer:(id)target action:(SEL)action;
 
 + (instancetype)barButtonItemWithImage:(UIImage *)image selImage:(UIImage *)selImage targer:(id)target action:(SEL)action;
+
++(instancetype)backBarButtonItemWithImage:(UIImage *)image heighImage:(UIImage *)heighImage targer:(id)target action:(SEL)action title:(NSString *)title;
 @end
 
 NS_ASSUME_NONNULL_END
