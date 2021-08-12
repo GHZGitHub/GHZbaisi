@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  GHZbaisi
+//
+//  Created by 高浩哲 on 2021/8/11.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "UIView+Frame.h"
+#import "UIImage+Image.h"
+#import "UIBarButtonItem+item.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef DEBUG
+
+#define BSLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define BSLog(...)
+
+#endif
+
+
+#define BSFunc BSLog(@"%s",__func__);
+
+#endif
+
+

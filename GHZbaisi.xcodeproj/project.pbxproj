@@ -8,27 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		DB49658026C2E11C00A89EE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB49657F26C2E11C00A89EE9 /* AppDelegate.m */; };
-		DB49658326C2E11C00A89EE9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB49658226C2E11C00A89EE9 /* SceneDelegate.m */; };
-		DB49658626C2E11C00A89EE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB49658526C2E11C00A89EE9 /* ViewController.m */; };
-		DB49658926C2E11C00A89EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB49658726C2E11C00A89EE9 /* Main.storyboard */; };
 		DB49658B26C2E11D00A89EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB49658A26C2E11D00A89EE9 /* Assets.xcassets */; };
-		DB49658E26C2E11D00A89EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB49658C26C2E11D00A89EE9 /* LaunchScreen.storyboard */; };
 		DB49659126C2E11D00A89EE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB49659026C2E11D00A89EE9 /* main.m */; };
+		DB4965BB26C2E19100A89EE9 /* GHZEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB49659A26C2E19100A89EE9 /* GHZEssenceViewController.m */; };
+		DB4965BC26C2E19100A89EE9 /* GHZNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965A026C2E19100A89EE9 /* GHZNewController.m */; };
+		DB4965BD26C2E19100A89EE9 /* GHZFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965A726C2E19100A89EE9 /* GHZFriendTrendViewController.m */; };
+		DB4965BE26C2E19100A89EE9 /* GHZBaseNavigationVController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965AB26C2E19100A89EE9 /* GHZBaseNavigationVController.m */; };
+		DB4965BF26C2E19100A89EE9 /* GHZMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965AE26C2E19100A89EE9 /* GHZMainTabBarController.m */; };
+		DB4965C026C2E19100A89EE9 /* GHZMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965B126C2E19100A89EE9 /* GHZMeController.m */; };
+		DB4965C126C2E19100A89EE9 /* GHZPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965B826C2E19100A89EE9 /* GHZPublishController.m */; };
+		DB4965C426C39AB600A89EE9 /* GHZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965C326C39AB600A89EE9 /* GHZTabBar.m */; };
+		DB4965CA26C3A44C00A89EE9 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965C626C3A44C00A89EE9 /* UIView+Frame.m */; };
+		DB4965CB26C3A44C00A89EE9 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965C726C3A44C00A89EE9 /* UIImage+Image.m */; };
+		DB4965CF26C3BA6500A89EE9 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965CE26C3BA6500A89EE9 /* UIBarButtonItem+item.m */; };
+		DB4965D626C506F200A89EE9 /* GHZSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965D526C506F200A89EE9 /* GHZSettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB49657B26C2E11C00A89EE9 /* GHZbaisi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHZbaisi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB49657E26C2E11C00A89EE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB49657F26C2E11C00A89EE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB49658126C2E11C00A89EE9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		DB49658226C2E11C00A89EE9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		DB49658426C2E11C00A89EE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DB49658526C2E11C00A89EE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DB49658826C2E11C00A89EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB49658A26C2E11D00A89EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB49658D26C2E11D00A89EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB49658F26C2E11D00A89EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB49659026C2E11D00A89EE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB49659A26C2E19100A89EE9 /* GHZEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHZEssenceViewController.m; sourceTree = "<group>"; };
+		DB49659B26C2E19100A89EE9 /* GHZEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHZEssenceViewController.h; sourceTree = "<group>"; };
+		DB4965A026C2E19100A89EE9 /* GHZNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHZNewController.m; sourceTree = "<group>"; };
+		DB4965A126C2E19100A89EE9 /* GHZNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHZNewController.h; sourceTree = "<group>"; };
+		DB4965A626C2E19100A89EE9 /* GHZFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHZFriendTrendViewController.h; sourceTree = "<group>"; };
+		DB4965A726C2E19100A89EE9 /* GHZFriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHZFriendTrendViewController.m; sourceTree = "<group>"; };
+		DB4965AB26C2E19100A89EE9 /* GHZBaseNavigationVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHZBaseNavigationVController.m; sourceTree = "<group>"; };
+		DB4965AC26C2E19100A89EE9 /* GHZMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHZMainTabBarController.h; sourceTree = "<group>"; };
+		DB4965AD26C2E19100A89EE9 /* GHZBaseNavigationVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHZBaseNavigationVController.h; sourceTree = "<group>"; };
+		DB4965AE26C2E19100A89EE9 /* GHZMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHZMainTabBarController.m; sourceTree = "<group>"; };
+		DB4965B126C2E19100A89EE9 /* GHZMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHZMeController.m; sourceTree = "<group>"; };
+		DB4965B226C2E19100A89EE9 /* GHZMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHZMeController.h; sourceTree = "<group>"; };
+		DB4965B726C2E19100A89EE9 /* GHZPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHZPublishController.h; sourceTree = "<group>"; };
+		DB4965B826C2E19100A89EE9 /* GHZPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHZPublishController.m; sourceTree = "<group>"; };
+		DB4965C226C39AB600A89EE9 /* GHZTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHZTabBar.h; sourceTree = "<group>"; };
+		DB4965C326C39AB600A89EE9 /* GHZTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHZTabBar.m; sourceTree = "<group>"; };
+		DB4965C626C3A44C00A89EE9 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		DB4965C726C3A44C00A89EE9 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		DB4965C826C3A44C00A89EE9 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		DB4965C926C3A44C00A89EE9 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		DB4965CC26C3A49100A89EE9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DB4965CD26C3BA6500A89EE9 /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
+		DB4965CE26C3BA6500A89EE9 /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
+		DB4965D426C506F200A89EE9 /* GHZSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHZSettingViewController.h; sourceTree = "<group>"; };
+		DB4965D526C506F200A89EE9 /* GHZSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHZSettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +88,255 @@
 		DB49657D26C2E11C00A89EE9 /* GHZbaisi */ = {
 			isa = PBXGroup;
 			children = (
+				DB4965AA26C2E19100A89EE9 /* 主要 */,
+				DB49659726C2E19100A89EE9 /* Class */,
+				DB4965C526C3A44C00A89EE9 /* Category */,
 				DB49657E26C2E11C00A89EE9 /* AppDelegate.h */,
 				DB49657F26C2E11C00A89EE9 /* AppDelegate.m */,
-				DB49658126C2E11C00A89EE9 /* SceneDelegate.h */,
-				DB49658226C2E11C00A89EE9 /* SceneDelegate.m */,
-				DB49658426C2E11C00A89EE9 /* ViewController.h */,
-				DB49658526C2E11C00A89EE9 /* ViewController.m */,
-				DB49658726C2E11C00A89EE9 /* Main.storyboard */,
 				DB49658A26C2E11D00A89EE9 /* Assets.xcassets */,
-				DB49658C26C2E11D00A89EE9 /* LaunchScreen.storyboard */,
 				DB49658F26C2E11D00A89EE9 /* Info.plist */,
 				DB49659026C2E11D00A89EE9 /* main.m */,
 			);
 			path = GHZbaisi;
+			sourceTree = "<group>";
+		};
+		DB49659726C2E19100A89EE9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DB49659826C2E19100A89EE9 /* essence(精华) */,
+				DB49659E26C2E19100A89EE9 /* New(新帖) */,
+				DB4965A426C2E19100A89EE9 /* FriendTrend(关注) */,
+				DB4965AF26C2E19100A89EE9 /* Me(我) */,
+				DB4965B526C2E19100A89EE9 /* Publish(发布) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		DB49659826C2E19100A89EE9 /* essence(精华) */ = {
+			isa = PBXGroup;
+			children = (
+				DB49659926C2E19100A89EE9 /* Controller */,
+				DB49659C26C2E19100A89EE9 /* Model */,
+				DB49659D26C2E19100A89EE9 /* View */,
+			);
+			path = "essence(精华)";
+			sourceTree = "<group>";
+		};
+		DB49659926C2E19100A89EE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB49659B26C2E19100A89EE9 /* GHZEssenceViewController.h */,
+				DB49659A26C2E19100A89EE9 /* GHZEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB49659C26C2E19100A89EE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB49659D26C2E19100A89EE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB49659E26C2E19100A89EE9 /* New(新帖) */ = {
+			isa = PBXGroup;
+			children = (
+				DB49659F26C2E19100A89EE9 /* Controller */,
+				DB4965A226C2E19100A89EE9 /* Model */,
+				DB4965A326C2E19100A89EE9 /* View */,
+			);
+			path = "New(新帖)";
+			sourceTree = "<group>";
+		};
+		DB49659F26C2E19100A89EE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965A126C2E19100A89EE9 /* GHZNewController.h */,
+				DB4965A026C2E19100A89EE9 /* GHZNewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB4965A226C2E19100A89EE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB4965A326C2E19100A89EE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB4965A426C2E19100A89EE9 /* FriendTrend(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965A526C2E19100A89EE9 /* Controller */,
+				DB4965A826C2E19100A89EE9 /* Model */,
+				DB4965A926C2E19100A89EE9 /* View */,
+			);
+			path = "FriendTrend(关注)";
+			sourceTree = "<group>";
+		};
+		DB4965A526C2E19100A89EE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965A626C2E19100A89EE9 /* GHZFriendTrendViewController.h */,
+				DB4965A726C2E19100A89EE9 /* GHZFriendTrendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB4965A826C2E19100A89EE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB4965A926C2E19100A89EE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB4965AA26C2E19100A89EE9 /* 主要 */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965AD26C2E19100A89EE9 /* GHZBaseNavigationVController.h */,
+				DB4965AB26C2E19100A89EE9 /* GHZBaseNavigationVController.m */,
+				DB4965AC26C2E19100A89EE9 /* GHZMainTabBarController.h */,
+				DB4965AE26C2E19100A89EE9 /* GHZMainTabBarController.m */,
+				DB4965C226C39AB600A89EE9 /* GHZTabBar.h */,
+				DB4965C326C39AB600A89EE9 /* GHZTabBar.m */,
+			);
+			path = "主要";
+			sourceTree = "<group>";
+		};
+		DB4965AF26C2E19100A89EE9 /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965D026C506C200A89EE9 /* setting(设置) */,
+				DB4965B026C2E19100A89EE9 /* Controller */,
+				DB4965B326C2E19100A89EE9 /* Model */,
+				DB4965B426C2E19100A89EE9 /* View */,
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		DB4965B026C2E19100A89EE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965B226C2E19100A89EE9 /* GHZMeController.h */,
+				DB4965B126C2E19100A89EE9 /* GHZMeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB4965B326C2E19100A89EE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB4965B426C2E19100A89EE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB4965B526C2E19100A89EE9 /* Publish(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965B626C2E19100A89EE9 /* Controller */,
+				DB4965B926C2E19100A89EE9 /* Model */,
+				DB4965BA26C2E19100A89EE9 /* View */,
+			);
+			path = "Publish(发布)";
+			sourceTree = "<group>";
+		};
+		DB4965B626C2E19100A89EE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965B726C2E19100A89EE9 /* GHZPublishController.h */,
+				DB4965B826C2E19100A89EE9 /* GHZPublishController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB4965B926C2E19100A89EE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB4965BA26C2E19100A89EE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB4965C526C3A44C00A89EE9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965CD26C3BA6500A89EE9 /* UIBarButtonItem+item.h */,
+				DB4965CE26C3BA6500A89EE9 /* UIBarButtonItem+item.m */,
+				DB4965C826C3A44C00A89EE9 /* UIImage+Image.h */,
+				DB4965C726C3A44C00A89EE9 /* UIImage+Image.m */,
+				DB4965C926C3A44C00A89EE9 /* UIView+Frame.h */,
+				DB4965C626C3A44C00A89EE9 /* UIView+Frame.m */,
+				DB4965CC26C3A49100A89EE9 /* PrefixHeader.pch */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DB4965D026C506C200A89EE9 /* setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965D126C506C200A89EE9 /* Controller */,
+				DB4965D226C506C200A89EE9 /* Model */,
+				DB4965D326C506C200A89EE9 /* View */,
+			);
+			name = "setting(设置)";
+			path = "GHZbaisi/Class/setting(设置)";
+			sourceTree = SOURCE_ROOT;
+		};
+		DB4965D126C506C200A89EE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965D426C506F200A89EE9 /* GHZSettingViewController.h */,
+				DB4965D526C506F200A89EE9 /* GHZSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB4965D226C506C200A89EE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB4965D326C506C200A89EE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +365,7 @@
 		DB49657326C2E11C00A89EE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GHZ;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					DB49657A26C2E11C00A89EE9 = {
@@ -132,9 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB49658E26C2E11D00A89EE9 /* LaunchScreen.storyboard in Resources */,
 				DB49658B26C2E11D00A89EE9 /* Assets.xcassets in Resources */,
-				DB49658926C2E11C00A89EE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,33 +407,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB49658626C2E11C00A89EE9 /* ViewController.m in Sources */,
+				DB4965CF26C3BA6500A89EE9 /* UIBarButtonItem+item.m in Sources */,
+				DB4965BC26C2E19100A89EE9 /* GHZNewController.m in Sources */,
 				DB49658026C2E11C00A89EE9 /* AppDelegate.m in Sources */,
 				DB49659126C2E11D00A89EE9 /* main.m in Sources */,
-				DB49658326C2E11C00A89EE9 /* SceneDelegate.m in Sources */,
+				DB4965C026C2E19100A89EE9 /* GHZMeController.m in Sources */,
+				DB4965BB26C2E19100A89EE9 /* GHZEssenceViewController.m in Sources */,
+				DB4965BD26C2E19100A89EE9 /* GHZFriendTrendViewController.m in Sources */,
+				DB4965D626C506F200A89EE9 /* GHZSettingViewController.m in Sources */,
+				DB4965BF26C2E19100A89EE9 /* GHZMainTabBarController.m in Sources */,
+				DB4965BE26C2E19100A89EE9 /* GHZBaseNavigationVController.m in Sources */,
+				DB4965C126C2E19100A89EE9 /* GHZPublishController.m in Sources */,
+				DB4965CB26C3A44C00A89EE9 /* UIImage+Image.m in Sources */,
+				DB4965C426C39AB600A89EE9 /* GHZTabBar.m in Sources */,
+				DB4965CA26C3A44C00A89EE9 /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DB49658726C2E11C00A89EE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB49658826C2E11C00A89EE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DB49658C26C2E11D00A89EE9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB49658D26C2E11D00A89EE9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DB49659226C2E11D00A89EE9 /* Debug */ = {
@@ -293,6 +546,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXC94WQ66W;
+				GCC_PREFIX_HEADER = GHZbaisi/Category/PrefixHeader.pch;
 				INFOPLIST_FILE = GHZbaisi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,7 +554,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ghz.GHZbaisi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,6 +565,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXC94WQ66W;
+				GCC_PREFIX_HEADER = GHZbaisi/Category/PrefixHeader.pch;
 				INFOPLIST_FILE = GHZbaisi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -318,7 +573,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ghz.GHZbaisi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
