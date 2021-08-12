@@ -23,7 +23,20 @@
 		DB4965CF26C3BA6500A89EE9 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965CE26C3BA6500A89EE9 /* UIBarButtonItem+item.m */; };
 		DB4965D626C506F200A89EE9 /* GHZSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965D526C506F200A89EE9 /* GHZSettingViewController.m */; };
 		DB4965D926C51E7A00A89EE9 /* GHZADController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965D826C51E7A00A89EE9 /* GHZADController.m */; };
-		DB4965DC26C51E9900A89EE9 /* ad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4965DB26C51E9900A89EE9 /* ad.xib */; };
+		DB4965DC26C51E9900A89EE9 /* GHZAD.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB4965DB26C51E9900A89EE9 /* GHZAD.xib */; };
+		DB4965E526C5234000A89EE9 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4965DE26C5234000A89EE9 /* LaunchImage@2x.png */; };
+		DB4965E626C5234000A89EE9 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4965DF26C5234000A89EE9 /* LaunchImage-568h@2x.png */; };
+		DB4965E726C5234000A89EE9 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4965E026C5234000A89EE9 /* LaunchImage-800-667h@2x.png */; };
+		DB4965E826C5234000A89EE9 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4965E126C5234000A89EE9 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		DB4965E926C5234000A89EE9 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4965E226C5234000A89EE9 /* LaunchImage-700@2x.png */; };
+		DB4965EA26C5234000A89EE9 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4965E326C5234000A89EE9 /* LaunchImage-700-568h@2x.png */; };
+		DB4965EB26C5234000A89EE9 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4965E426C5234000A89EE9 /* LaunchImage.png */; };
+		DB4965FB26C528F100A89EE9 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965F126C528F000A89EE9 /* AFURLResponseSerialization.m */; };
+		DB4965FC26C528F100A89EE9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965F226C528F000A89EE9 /* AFHTTPSessionManager.m */; };
+		DB4965FD26C528F100A89EE9 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965F426C528F000A89EE9 /* AFURLSessionManager.m */; };
+		DB4965FE26C528F100A89EE9 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965F526C528F000A89EE9 /* AFURLRequestSerialization.m */; };
+		DB4965FF26C528F100A89EE9 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965F726C528F000A89EE9 /* AFNetworkReachabilityManager.m */; };
+		DB49660026C528F100A89EE9 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4965F826C528F000A89EE9 /* AFSecurityPolicy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +73,28 @@
 		DB4965D526C506F200A89EE9 /* GHZSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHZSettingViewController.m; sourceTree = "<group>"; };
 		DB4965D726C51E7A00A89EE9 /* GHZADController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHZADController.h; sourceTree = "<group>"; };
 		DB4965D826C51E7A00A89EE9 /* GHZADController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHZADController.m; sourceTree = "<group>"; };
-		DB4965DB26C51E9900A89EE9 /* ad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ad.xib; sourceTree = "<group>"; };
+		DB4965DB26C51E9900A89EE9 /* GHZAD.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GHZAD.xib; sourceTree = "<group>"; };
+		DB4965DE26C5234000A89EE9 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		DB4965DF26C5234000A89EE9 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		DB4965E026C5234000A89EE9 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		DB4965E126C5234000A89EE9 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		DB4965E226C5234000A89EE9 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		DB4965E326C5234000A89EE9 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		DB4965E426C5234000A89EE9 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		DB4965ED26C528F000A89EE9 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		DB4965EE26C528F000A89EE9 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		DB4965EF26C528F000A89EE9 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		DB4965F026C528F000A89EE9 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		DB4965F126C528F000A89EE9 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		DB4965F226C528F000A89EE9 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		DB4965F326C528F000A89EE9 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		DB4965F426C528F000A89EE9 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		DB4965F526C528F000A89EE9 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		DB4965F626C528F000A89EE9 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		DB4965F726C528F000A89EE9 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		DB4965F826C528F000A89EE9 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		DB4965F926C528F000A89EE9 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		DB4965FA26C528F000A89EE9 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +135,7 @@
 				DB49658A26C2E11D00A89EE9 /* Assets.xcassets */,
 				DB49658F26C2E11D00A89EE9 /* Info.plist */,
 				DB49659026C2E11D00A89EE9 /* main.m */,
+				DB4965CC26C3A49100A89EE9 /* PrefixHeader.pch */,
 			);
 			path = GHZbaisi;
 			sourceTree = "<group>";
@@ -300,13 +335,14 @@
 		DB4965C526C3A44C00A89EE9 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				DB4965EC26C528F000A89EE9 /* AFNetworking */,
+				DB4965DD26C5234000A89EE9 /* 启动图片 */,
 				DB4965CD26C3BA6500A89EE9 /* UIBarButtonItem+item.h */,
 				DB4965CE26C3BA6500A89EE9 /* UIBarButtonItem+item.m */,
 				DB4965C826C3A44C00A89EE9 /* UIImage+Image.h */,
 				DB4965C726C3A44C00A89EE9 /* UIImage+Image.m */,
 				DB4965C926C3A44C00A89EE9 /* UIView+Frame.h */,
 				DB4965C626C3A44C00A89EE9 /* UIView+Frame.m */,
-				DB4965CC26C3A49100A89EE9 /* PrefixHeader.pch */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -350,9 +386,44 @@
 			children = (
 				DB4965D726C51E7A00A89EE9 /* GHZADController.h */,
 				DB4965D826C51E7A00A89EE9 /* GHZADController.m */,
-				DB4965DB26C51E9900A89EE9 /* ad.xib */,
+				DB4965DB26C51E9900A89EE9 /* GHZAD.xib */,
 			);
 			path = "Ad(广告页面)";
+			sourceTree = "<group>";
+		};
+		DB4965DD26C5234000A89EE9 /* 启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965DE26C5234000A89EE9 /* LaunchImage@2x.png */,
+				DB4965DF26C5234000A89EE9 /* LaunchImage-568h@2x.png */,
+				DB4965E026C5234000A89EE9 /* LaunchImage-800-667h@2x.png */,
+				DB4965E126C5234000A89EE9 /* LaunchImage-800-Portrait-736h@3x.png */,
+				DB4965E226C5234000A89EE9 /* LaunchImage-700@2x.png */,
+				DB4965E326C5234000A89EE9 /* LaunchImage-700-568h@2x.png */,
+				DB4965E426C5234000A89EE9 /* LaunchImage.png */,
+			);
+			path = "启动图片";
+			sourceTree = "<group>";
+		};
+		DB4965EC26C528F000A89EE9 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DB4965ED26C528F000A89EE9 /* AFSecurityPolicy.h */,
+				DB4965EE26C528F000A89EE9 /* AFNetworkReachabilityManager.h */,
+				DB4965EF26C528F000A89EE9 /* AFURLSessionManager.h */,
+				DB4965F026C528F000A89EE9 /* AFURLRequestSerialization.h */,
+				DB4965F126C528F000A89EE9 /* AFURLResponseSerialization.m */,
+				DB4965F226C528F000A89EE9 /* AFHTTPSessionManager.m */,
+				DB4965F326C528F000A89EE9 /* AFURLResponseSerialization.h */,
+				DB4965F426C528F000A89EE9 /* AFURLSessionManager.m */,
+				DB4965F526C528F000A89EE9 /* AFURLRequestSerialization.m */,
+				DB4965F626C528F000A89EE9 /* AFNetworking.h */,
+				DB4965F726C528F000A89EE9 /* AFNetworkReachabilityManager.m */,
+				DB4965F826C528F000A89EE9 /* AFSecurityPolicy.m */,
+				DB4965F926C528F000A89EE9 /* AFCompatibilityMacros.h */,
+				DB4965FA26C528F000A89EE9 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,7 +483,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4965DC26C51E9900A89EE9 /* ad.xib in Resources */,
+				DB4965E726C5234000A89EE9 /* LaunchImage-800-667h@2x.png in Resources */,
+				DB4965DC26C51E9900A89EE9 /* GHZAD.xib in Resources */,
+				DB4965EB26C5234000A89EE9 /* LaunchImage.png in Resources */,
+				DB4965EA26C5234000A89EE9 /* LaunchImage-700-568h@2x.png in Resources */,
+				DB4965E526C5234000A89EE9 /* LaunchImage@2x.png in Resources */,
+				DB4965E626C5234000A89EE9 /* LaunchImage-568h@2x.png in Resources */,
+				DB4965E826C5234000A89EE9 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				DB4965E926C5234000A89EE9 /* LaunchImage-700@2x.png in Resources */,
 				DB49658B26C2E11D00A89EE9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,18 +504,24 @@
 			files = (
 				DB4965CF26C3BA6500A89EE9 /* UIBarButtonItem+item.m in Sources */,
 				DB4965BC26C2E19100A89EE9 /* GHZNewController.m in Sources */,
+				DB4965FF26C528F100A89EE9 /* AFNetworkReachabilityManager.m in Sources */,
 				DB49658026C2E11C00A89EE9 /* AppDelegate.m in Sources */,
 				DB49659126C2E11D00A89EE9 /* main.m in Sources */,
 				DB4965C026C2E19100A89EE9 /* GHZMeController.m in Sources */,
 				DB4965BB26C2E19100A89EE9 /* GHZEssenceViewController.m in Sources */,
+				DB49660026C528F100A89EE9 /* AFSecurityPolicy.m in Sources */,
 				DB4965BD26C2E19100A89EE9 /* GHZFriendTrendViewController.m in Sources */,
 				DB4965D626C506F200A89EE9 /* GHZSettingViewController.m in Sources */,
 				DB4965BF26C2E19100A89EE9 /* GHZMainTabBarController.m in Sources */,
+				DB4965FD26C528F100A89EE9 /* AFURLSessionManager.m in Sources */,
 				DB4965BE26C2E19100A89EE9 /* GHZBaseNavigationVController.m in Sources */,
 				DB4965C126C2E19100A89EE9 /* GHZPublishController.m in Sources */,
+				DB4965FE26C528F100A89EE9 /* AFURLRequestSerialization.m in Sources */,
 				DB4965CB26C3A44C00A89EE9 /* UIImage+Image.m in Sources */,
 				DB4965C426C39AB600A89EE9 /* GHZTabBar.m in Sources */,
 				DB4965CA26C3A44C00A89EE9 /* UIView+Frame.m in Sources */,
+				DB4965FB26C528F100A89EE9 /* AFURLResponseSerialization.m in Sources */,
+				DB4965FC26C528F100A89EE9 /* AFHTTPSessionManager.m in Sources */,
 				DB4965D926C51E7A00A89EE9 /* GHZADController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,7 +648,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXC94WQ66W;
-				GCC_PREFIX_HEADER = GHZbaisi/Category/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = GHZbaisi/PrefixHeader.pch;
 				INFOPLIST_FILE = GHZbaisi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -583,7 +667,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXC94WQ66W;
-				GCC_PREFIX_HEADER = GHZbaisi/Category/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = GHZbaisi/PrefixHeader.pch;
 				INFOPLIST_FILE = GHZbaisi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

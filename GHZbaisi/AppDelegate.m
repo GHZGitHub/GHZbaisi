@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 #import "GHZMainTabBarController.h"
+#import "GHZADController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,8 +19,8 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
 
-    GHZMainTabBarController *tabBarVC  = [GHZMainTabBarController new];
-    self.window.rootViewController = tabBarVC;
+    GHZADController *vc = [GHZADController new];
+    self.window.rootViewController = vc;
     
     [self.window makeKeyAndVisible];
     return YES;
